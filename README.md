@@ -2,12 +2,15 @@
 The project highlights data generation, reproducibility with random seeds, and techniques to prepare data for fair model training.
 
 #Project Overview: 
+
 This project demonstrates handling imbalanced datasets using downsampling of the majority class.
 Imbalanced datasets are common in real-world scenarios (e.g., fraud detection, medical diagnoses) where one class dominates.
 Downsampling helps create a balanced dataset, allowing machine learning models to learn fairly from both classes.
 
 #Why It Matters: 
+
 Imbalanced datasets can bias model predictions toward the majority class.
+
 Downsampling reduces the size of the majority class to match the minority class, improving model fairness and accuracy.
 
 #Key Features: 
