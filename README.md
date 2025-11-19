@@ -1,16 +1,16 @@
 # Handling-Imbalaced-Dataset-Upsampling-and-Downsampling
 The project highlights data generation, reproducibility with random seeds, and techniques to prepare data for fair model training.
 
-#Project Overview
+#Project Overview: 
 This project demonstrates handling imbalanced datasets using downsampling of the majority class.
 Imbalanced datasets are common in real-world scenarios (e.g., fraud detection, medical diagnoses) where one class dominates.
 Downsampling helps create a balanced dataset, allowing machine learning models to learn fairly from both classes.
 
-#Why It Matters
+#Why It Matters: 
 Imbalanced datasets can bias model predictions toward the majority class.
 Downsampling reduces the size of the majority class to match the minority class, improving model fairness and accuracy.
 
-#Key Features
+#Key Features: 
 
 Recreate an imbalanced dataset with two features and a binary target.
 Separate majority and minority classes.
@@ -18,16 +18,19 @@ Downsample the majority class to balance the dataset.
 Combine minority class with downsampled majority class.
 Output class distribution after balancing.
 
-#Technologies / Tools
+#Technologies / Tools:
+
 Python 3.x – programming language
 VS Code – IDE used for development
 Jupyter Notebook (.ipynb) – project file
 Libraries: numpy, pandas, scikit-learn (resample)
 
-#What I Did in the Code
+#What I Did in the Code:
+
 In this project, I created and handled an imbalanced dataset using Python. Here’s a step-by-step summary of what the code does:
 
 Recreated an imbalanced dataset:
+
  -Generated 1000 samples with two features (feature1 and feature2).
  -90% of the samples belong to class 0 (majority) and 10% to class 1 (minority).
 Generated features for each class:
@@ -48,7 +51,8 @@ Balanced the dataset using two techniques:
 Verified the result:
  -Checked class distributions after downsampling and upsampling to ensure the dataset is balanced.
 
-#What I Achieved
+#What I Achieved:
+
 Successfully created a synthetic imbalanced dataset to simulate real-world scenarios.
 Learned how to identify and separate majority and minority classes in a dataset.
 Applied downsampling to balance the dataset, ensuring that both classes have equal representation.
